@@ -1,54 +1,29 @@
 {
-"intents":
-	[
-			{
-					"intent": "AskTemperature",
-					"slots": [
-									{
-									"name": "Location",
-									"type": "LIST_OF_LOCATIONS"
-									}
-					]
-			},
-
-			{
-					"intent": "AskCarbonDioxide",
-					"slots": [
-									{
-									"name": "Location",
-									"type": "LIST_OF_LOCATIONS"
-									}
-					]
-			},
-			 {
-					"intent": "AskHumidity",
-					"slots": [
-									{
-									"name": "Location",
-									"type": "LIST_OF_LOCATIONS"
-									}
-					]
-			},
-
-			{
-					"intent": "AskRain",
-					"slots": []
-			},
-
-			{
-					"intent": "AskSound",
-					"slots": []
-			},
-			{
-					"intent": "AskWind",
-					"slots": []
-			},
-
-			{
-					"intent": "AskPressure",
-					"slots": []
-			}
-
-
-	]
+    "intents": [{
+            "intent": "AskTemperature",
+            "slots": [{
+                "name": "Location",
+                "type": "LIST_OF_LOCATIONS"
+            }]
+        },
+        {
+            "intent": "AskCarbonDioxide",
+            "slots": []
+        },
+        {
+            "intent": "AskHumidity",
+            "slots": [{
+                "name": "Location",
+                "type": "LIST_OF_LOCATIONS"
+            }]
+        },
+        {
+            "intent": "AskSound",
+            "slots": []
+        },
+        {
+            "intent": "AskPressure",
+            "slots": []
+        }
+    ]
 }
